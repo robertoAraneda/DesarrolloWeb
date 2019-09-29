@@ -1,0 +1,481 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 26, 2019, 8:49:58 PM
+    Author     : Roberto
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica,Arial,sans-serif;
+    line-height: 1.25;
+}
+
+#cnt_superior{
+    background-color: #3B5998;
+    height: 80px;
+}
+
+#cnt_superior_izq{
+    float: left;
+    width: 54%;
+}
+
+#img_logo_facebook{
+    padding: 5px;
+    margin-left: 30%;
+    width: 200px;
+}
+
+.login{
+    float: left;
+    width: 170px;
+    margin-top: 12px;
+    font-size: 12px;
+    color: white;
+}
+
+#cnt_central{
+    /*    background-color: #DBDFEC;*/
+    background: linear-gradient(white, #D3D8E8);
+}
+
+#btn_iniciar_session{
+    margin-top: 31px;
+    background-color: #4768b7;
+    color: white;
+    border: 1px solid #29487D;
+    border-radius: 2px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.input_login{
+    margin-top: 8px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    height: 20px;
+    width: 150px;
+}
+
+#btn_iniciar_session:hover{
+    background-color: #3B5998;
+}
+
+a{
+    color: #95ADD3;
+}
+
+#leyenda_facebook{
+    color: #0E385F;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+    word-spacing: -1px;
+    width: 450px;
+}
+
+#cnt_central_izq{
+    float: left;
+    width: 55%;
+}
+
+#cnt_imagen{
+    margin-left: 30%;
+}
+
+#cnt_inferior{
+    clear: both;
+}
+
+#abrir_cuenta{
+    color: #333;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+#mensaje{
+    color: #1D2129;
+    font-size: 19px; 
+    font-weight: normal;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+}
+
+#cnt_titulo{
+    padding: 20px 0;
+}
+
+.input_registro_extendido{
+    border: 1px solid #95ADD3;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 8px 10px;
+    margin-bottom: 10px;  
+    width: 400px;
+}
+
+.input_registro_corto{
+    border: 1px solid #95ADD3;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 8px 10px;
+    margin-bottom: 10px;  
+    width:183px;
+    margin-right: 10px;
+}
+
+
+#nombre{
+    float: left;
+}
+
+.titulo_registro{
+    color: #90949c;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#fecha_nacimiento{
+    display: inline-block;
+    margin-left: 2px;
+}
+
+select{
+    margin: -3px;
+    font-size: 13px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccd0d5;
+    margin-bottom: 10px;
+}
+
+#titulo_registro_fecha{
+    margin-bottom: 10px;
+}
+
+.img_ayuda{
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+#registro_sexo{
+    clear: both;
+    margin-bottom: 10px;
+}
+
+#sexo{
+    clear: both;
+    display: block;
+    margin-left: 2px;
+}
+
+.radio_sexo{
+    font-size: 18px;
+    padding: 0px 10px 0px 5px;
+}
+
+#politica_condiciones{
+    margin-top: 10px;
+    font-size: 11px;
+    color: #777;
+    width: 310px;
+    clear: both;
+    margin-bottom: 10px;
+}
+
+#politica_condiciones a{
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+}
+#botton_registrar{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    border: 1px solid #3b6e22;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+    letter-spacing: normal;
+}
+
+#leyenda{
+    color: #666;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 15px;
+    width: 399px;
+    margin-bottom: 36px;
+}
+
+#leyenda a{
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#cnt_radio_sexo{
+    margin-left: 10px;
+}
+
+#cnt_opciones_registro{
+    margin-left: 3px;
+}
+
+#cnt_idioma{
+    color: #737373;
+}
+#cnt_idioma ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 12px;
+    color: #737373;
+    margin: 0 auto;
+}
+#cnt_opciones_pie_pagina ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 12px;
+    color: #737373;
+    margin: 0 auto;
+}
+
+#cnt_idioma ul li a{
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#cnt_opciones_pie_pagina ul li a{
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+}
+#cnt_pie_pagina{
+    margin-left: 20%;
+    margin-top: 17px;
+}
+
+#btn_idiomas{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    background-color: #f5f6f7;
+    color: #828282;
+    border-radius: 2px;
+    box-sizing: content-box;
+    border: 1px solid #ccd0d5;
+    padding: 0 8px;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    height: 18px;
+}
+
+#cnt_linea_divisoria{
+    margin-left: 10px;
+    border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    height: 8px;
+    margin-bottom: 8px;
+    width: 900px;
+}
+
+#cnt_opciones_pie_pagina{
+    width: 900px;
+}
+
+#cnt_copyright{
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 11px;
+    color: #737373;
+}
+
+#cnt_registro_responsivo{
+    display: none;
+}
+
+#cnt_ingresar_responsivo{
+    display: none;
+}
+
+#cnt_pie_pagina_responsivo{
+    display: none;
+}
+
+@media screen and (max-width: 800px){
+    #cnt_central_izq{
+        display: none;
+    }
+    #cnt_superior_der{
+        display: none;
+    }
+    #cnt_superior_der{
+        width: 100%
+    }
+
+    #img_logo_facebook{
+        padding: 5px;
+        margin-left: 60%;
+        width: 200px;
+    }
+
+    #cnt_central_der{
+        width: 100%;
+    }
+    #abrir_cuenta{
+        display: none;
+    }
+    #mensaje{
+        display: none;
+    }
+
+    #cnt_registro_responsivo{
+        display: block;
+    }
+
+    #registro{
+        display: none;
+    }
+
+    .input_registro_extendido{
+        width: 90%;
+        margin-left: 20px;
+    }
+    #fecha_nacimiento{
+        display: none;
+    }
+    #cnt_ingresar_responsivo{
+        display: block;
+    }
+
+    #btn_ingresar{
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        font-size: 19px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        background: linear-gradient(#3B5998, #3B5998);
+        background-color: #3B5998;
+        border: 1px solid #3b6e22;
+        box-shadow: inset 0 1px 1px #3B5998;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+        text-shadow: 0 1px 2px rgba(0,0,0,.5);
+        text-align: center;
+        letter-spacing: normal;
+        padding: 7px 20px;
+        width: 93.5%;
+        min-width: 194px;
+    }
+
+    #btn_crear_cuenta{
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        font-size: 19px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background: linear-gradient(#67ae55, #578843);
+        background-color: #69a74e;
+        border: 1px solid #3b6e22;
+        box-shadow: inset 0 1px 1px #a4e388;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+        text-shadow: 0 1px 2px rgba(0,0,0,.5);
+        min-width: 194px;
+        padding: 7px 20px;
+        text-align: center;
+        letter-spacing: normal;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    #cnt_division ul li{
+        display: inline-block;
+    }
+    
+    #cnt_division{
+        margin-left: auto;
+    }
+    #cnt_opciones_responsivo ul li a{
+        color: #385898;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    .linea_divisoria{
+        border-bottom: 1px solid #95ADD3;
+        font-size: 1px;
+        height: 8px;
+        margin-bottom: 3px;
+        width: 200px;
+        display: inline-block;
+    }
+
+    #cnt_opciones_responsivo ul li{
+        display: inline-block;
+    }
+
+    #cnt_opciones_responsivo ul{
+        margin-left: 15%;
+    }
+    #cnt_opciones_responsivo{
+        padding-bottom: 50px;
+        margin-bottom: 20px;
+    }
+
+    #cnt_pie_pagina_responsivo{
+        display: block;
+        margin-left: 20%;
+        font-size: 12px;
+    }
+
+    #cnt_pie_pagina{
+        display: none;
+    }
+
+    #cnt_pie_pagina_responsivo td{
+        width: 250px;
+    }
+
+    #cnt_pie_pagina_responsivo td a{
+        color: #385898;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 12px;
+    }
+
+    #cnt_copyright_responsivo{
+        margin-left: 20%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 11px;
+        color: #737373;
+
+    }
+}

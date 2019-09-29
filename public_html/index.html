@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/registro.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <!--Contenedor superior-->
+        <div id="cnt_superior">
+            <div id="cnt_superior_izq">
+                <img id="img_logo_facebook" src="img/facebook-logo-1.png" alt="logo_facebook"/>
+            </div>
+            <div id="cnt_superior_der">
+                <div class="login">
+                    <label>Correo electrónico o teléfono</label>
+                    <input class="input_login" type="text">
+                </div>
+                <div class="login">
+                    <label>Contraseña</label>
+                    <input class="input_login" type="text">
+                    <a href="#">¿Olvidaste tu cuenta?</a>
+                </div>
+                <div>
+                    <input id="btn_iniciar_session" type="button" value="Iniciar sesión">
+                </div>
+            </div>
+        </div>
+
+        <!--contenedor central-->
+        <div id="cnt_central">
+            <div id="cnt_central_izq">
+                <div id="cnt_imagen">
+                    <p id="leyenda_facebook">Facebook te ayuda a comunicarte y compartir con las personas que forman parte de tu vida.</p>
+                    <img src="img/fondo_portada.png" alt="fondo_facebook"/>
+                </div>
+            </div>
+            <div id="cnt_central_der">
+                <div id="cnt_titulo">
+                    <div id="abrir_cuenta">Abre una cuenta</div>
+                    <div id="mensaje">Es rápido y fácil.</div>
+                    <div id="registro">
+                        <div id="nombre_completo">
+                            <div id="nombre">
+                                <input class="input_registro_corto" type="text" placeholder="Nombre">
+                            </div>
+                            <div id="apellido">
+                                <input class="input_registro_corto" type="text" placeholder="Apellido">
+                            </div>
+                        </div>
+                        <div id="celular">
+                            <input class="input_registro_extendido" type="text" placeholder="Numero de celular o correo electrónico">
+                        </div>
+                        <div id="contrasena">
+                            <input class="input_registro_extendido" type="text" placeholder="Contraseña nueva">
+                        </div>
+                    </div>
+                    <div id="cnt_registro_responsivo">
+                        <div id="cnt_celular_responsivo">
+                            <input class="input_registro_extendido" type="text" placeholder="Numero de celular o correo electrónico">
+                        </div>
+                        <div id="cnt_contrasena_responsivo">
+                            <input class="input_registro_extendido" type="text" placeholder="Contraseña">
+                        </div>
+                    </div>
+                </div>
+                <div id="fecha_nacimiento">
+                    <div id="titulo_registro_fecha">
+                        <label class="titulo_registro">Fecha de nacimiento</label>
+                    </div>
+                    <div id="cnt_opciones_registro">
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                        <select>
+                            <option>mes</option>
+                            <option>ene</option>
+                            <option>feb</option>
+                            <option>mar</option>
+                            <option>abr</option>
+                        </select>
+                        <select>
+                            <option>2010</option>
+                            <option>2011</option>
+                            <option>2012</option>
+                            <option>2013</option>
+                            <option>2014</option>
+                        </select>
+                        <span><img class="img_ayuda" src="img/question1.png" alt="question"/></span>                     
+                    </div>
+                    <div id="registro_sexo">
+                        <label class="titulo_registro">Sexo</label>
+                    </div>
+                    <div id="cnt_radio_sexo">
+                        <input type="radio"><label class="radio_sexo">Mujer</label>
+                        <input type="radio"><label class="radio_sexo">Hombre</label>
+                        <input type="radio"><label class="radio_sexo">Personalizado</label>
+                        <span><img class="img_ayuda" src="img/question1.png" alt="question"/></span>             
+                    </div>
+                    <div id="politica_condiciones">
+                        <p>Al hacer clic en 
+                            "Registrarte", aceptas nuestras 
+                            <a href="#">Condiciones</a>, la 
+                            <a href="#">Política de datos</a> y la 
+                            <a href="#">Política de cookies</a>. 
+                            Es posible que te enviemos notificaciones por SMS, que puedes desactivar cuando quieras.</p>
+                    </div>
+                    <div>
+                        <input id="botton_registrar" type="button" value="Registrarte">
+                    </div>
+                    <div id="leyenda">
+                        <p><a href="#">Crea una página</a> 
+                            para un personaje público, un grupo de música o un negocio.</p>
+                    </div>
+                </div>
+                <div id="cnt_ingresar_responsivo">
+                    <div id="cnt_btn_ingresar">
+                        <input id="btn_ingresar" type="button" value="Entrar">
+                    </div>
+                    <div id="cnt_division">
+                        <ul>
+                            <li><span  class="linea_divisoria"></span></li>
+                            <li><span> o </span></li>
+                            <li><span  class="linea_divisoria"></span></li>
+                        </ul>
+                    </div>
+                    <div id="cnt_btn_crear_cuenta">
+                        <input id="btn_crear_cuenta" type="button" value="Crear nueva cuenta">
+                    </div>
+                    <div id="cnt_opciones_responsivo">
+                        <ul>
+                            <li><a href="#">¿Has olvidado la contraseña?</a></li>
+                            <li><label> - </label></li>
+                            <li><a href="#">Servicio de ayuda</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--contenedor inferior-->
+        <div id="cnt_inferior">
+            <div id="cnt_pie_pagina">
+                <div id="cnt_idioma">
+                    <ul>
+                        <li>Español</li>
+                        <li><a href="#">English (US)</a></li>
+                        <li><a href="#">Français (France)</a></li>
+                        <li><a href="#" title="Portuguese (Brazil)">Português (Brasil)</a></li>
+                        <li><a href="#">Deutsch</a></li>
+                        <li><a href="#">Italiano</a></li>
+                        <li><a href="#">中文(简体)</a></li>
+                        <li><a href="#">Svenska</a></li>
+                        <li><a href="#">العربية</a></li>
+                        <li><a href="#">हिन्दी</a></li>
+                        <li><a href="#">日本語</a></li>
+                        <li><input id="btn_idiomas" type="button" value="+"></li>
+                    </ul>
+                </div>
+                <div id="cnt_linea_divisoria">                    
+                </div>
+                <div id="cnt_opciones_pie_pagina">
+                    <ul>
+                        <li><a href="#" title="">Registrarte</a></li>
+                        <li><a href="#" title="">Iniciar sesión</a></li>
+                        <li><a href="#" title="">Messenger</a></li>
+                        <li><a href="#" title="">Facebook Lite</a></li>
+                        <li><a href="#" title="">Personas</a></li>
+                        <li><a href="#" title="">Páginas</a></li>
+                        <li><a href="#" title="">Categorías de páginas</a></li>
+                        <li><a href="#" title="">Lugares</a></li>
+                        <li><a href="#" title="">Juegos</a></li>
+                        <li><a href="#" title="">Ubicaciones</a></li>
+                        <li><a href="#" title="">Marketplace</a></li>
+                        <li><a href="#" title="">Grupos</a></li>
+                        <li><a href="#" title="">Instagram</a></li>
+                        <li><a href="#" title="">Local</a></li>
+                        <li><a href="#" title="">Recaudaciones de fondos</a></li>
+                        <li><a href="#" title="">Servicios</a></li>
+                        <li><a href="#" title="">Crear anuncio</a></li>
+                        <li><a href="#" title="">Crear página</a></li>
+                        <li><a href="#" title="">Desarrolladores</a></li>
+                        <li><a href="#" title="">Empleo</a></li>
+                        <li><a href="#" title="">Privacidad</a></li>
+                        <li><a href="#" title="">Cookies</a></li>
+                        <li><a href="#" title="">Opciones de anuncios</a></li>
+                        <li><a href="#" title="">Condiciones</a></li>
+                        <li><a href="#" title="">Ayuda</a></li>
+                    </ul>
+                </div>
+                <div id="cnt_copyright">
+                    <label>Facebook © 2019</label>
+                </div>
+            </div>
+            <div id="cnt_pie_pagina_responsivo">  
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Español</td>
+                            <td><a href="#">English (US)</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Français (France)</a></td>
+                            <td><a href="#" title="Portuguese (Brazil)">Português (Brasil)</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Deutsch</a></td>
+                            <td><a href="#">Svenska</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">العربية</a></td>
+                            <td><input id="btn_idiomas_responsivo" type="button" value="+"></td>
+                        </tr>
+                    </tbody>
+                </table> 
+                <div id="cnt_copyright">
+                    <label>Facebook © 2019</label>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

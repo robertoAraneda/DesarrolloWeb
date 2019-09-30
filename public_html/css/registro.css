@@ -29,6 +29,7 @@ body{
     padding: 5px;
     margin-left: 30%;
     width: 200px;
+    cursor: pointer;
 }
 
 .login{
@@ -137,7 +138,7 @@ a{
     margin-top: 10px;
 }
 
-#fecha_nacimiento{
+#cnt_registro_pie{
     display: inline-block;
     margin-left: 2px;
 }
@@ -159,6 +160,7 @@ select{
     width: 16px;
     height: 16px;
     margin-left: 10px;
+    cursor: pointer;
 }
 
 #cnt_registro_sexo{
@@ -354,7 +356,7 @@ select{
         display: block;
     }
 
-    #registro{
+    #cnt_registro{
         display: none;
     }
 
@@ -362,7 +364,7 @@ select{
         width: 90%;
         margin-left: 20px;
     }
-    #fecha_nacimiento{
+    #cnt_registro_pie{
         display: none;
     }
     #cnt_ingresar_responsivo{
@@ -447,7 +449,6 @@ select{
     #cnt_opciones_responsivo{
         padding-bottom: 50px;
         margin-bottom: 20px;
-        text-align: center;
     }
 
     #cnt_pie_pagina_responsivo{

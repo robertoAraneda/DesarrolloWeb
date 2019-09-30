@@ -325,7 +325,7 @@ select{
 }
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 600px){
     #cnt_central_izq{
         display: none;
     }
@@ -343,7 +343,8 @@ select{
     }
 
     #cnt_central_der{
-        width: 100%;
+        width: 90%;
+        margin-left: 0px;
     }
     #abrir_cuenta{
         display: none;
@@ -479,5 +480,27 @@ select{
         font-size: 11px;
         color: #737373;
 
+    }
+}
+
+@media screen and (max-width:1000px){
+    #cnt_superior_der{
+        display: none;
+    }
+
+    #cnt_superior{
+        display: block;
+    }
+
+    #cnt_superior_izq div{
+        margin: auto;
+    }
+
+    #cnt_central_izq{
+        display: none;
+    }
+
+    #cnt_central_der{
+        margin-left: 5%;
     }
 }
